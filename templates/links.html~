@@ -41,14 +41,14 @@
 						<p>
 							<h4><a class="btn btn-default btn-info" href="https://github.com/bdevorem/" role="button">GitHub</a><h4>
 							<h4> Here, you will find some of my coding projects.</h4>
-							<h5>The list is currently lacking because I have some non-Git projects, but those should be integrated and uploaded sometime in the near future!</h5>
+							<h5>The list is currently lacking because I have some non-Git projects, but those should be integrated and uploaded sometime in the near future.</h5>
 						</p>
 					</div>
 
 					<div class="span6 text-left">
 						<p>
 							<h4><a class="btn btn-default btn-info" href="https://www.linkedin.com/in/bdevorem" role="button">LinkedIn</a></h4>
-							<h4>Here, you will find my lovely professional webpage.</h4>
+							<h4>Here, you will find my professional webpage.</h4>
 							<h5>Don't be alarmed, it still has some character to it.</h5>
 						</p>
 					</div>
@@ -65,7 +65,6 @@
 					</div>
 
 					<div class="span6 text-left">
-						
 					</div>
 				</div>
 	    	</div>
@@ -98,7 +97,7 @@
 		</div>
  
         <footer class="footer">
-            <p>&copy; Created by Breanna using Python, Flask, and Bootstrap, Jan 2016</p>
+            <p>&copy; Created by Breanna using <a href="https://www.python.org/">Python</a>, <a href="http://flask.pocoo.org/">Flask</a>, and <a href="http://getbootstrap.com/">Bootstrap</a>, Jan 2016</p>
         </footer>
     </div>
 </body>

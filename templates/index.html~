@@ -4,6 +4,7 @@
 <head>
     <title>Breanna's Homepage</title>
  
+ 	<!-- Templates -->
     <link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
     <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -15,6 +16,7 @@
  
 <body>
     <div class="container">
+    	<!-- Header -->
         <div class="header">
             <nav>
 				<ul class="nav nav-pills pull-right">
@@ -34,30 +36,31 @@
 
 		<hr>
  
+ 		<!-- Section 1, Welcome Info -->
         <div class="row-fluid">
             <div class="span12 text-left">
                 <h2><span class="label label-success">Welcome!</h2>
 				<br>                
 				<p>
 					<h5>My name is Breanna, and I am a 3<sup>rd</sup> year computer science student at the <a href="https://cse.nd.edu/">University of Notre Dame</a>.</h5></p>
-					<p><h5>I'm from Northern California and I love winter. Just kidding.</h5>
+					<p><h5>I've finally decided to create a personal webpage, and it looks like you've made your way to it. Enjoy!</h5>
 				</p>
             </div>
         </div>
 
 		<hr>		
 		
-		<div id="carousel-Redding" class="carousel slide" data-ride="carousel" data-interval="4000">
+		<!-- Section 2, Carousel -->
+		<div id="carousel-my-homes" class="carousel slide" data-ride="carousel" data-interval="4000">
   		<!-- Indicators -->
 		<ol class="carousel-indicators">
-			<li data-target="#carousel-Redding" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-Redding" data-slide-to="1"></li>
-			<li data-target="#carousel-Redding" data-slide-to="2"></li>
-			<li data-target="#carousel-Redding" data-slide-to="3"></li>
-			<li data-target="#carousel-Redding" data-slide-to="4"></li>
+			<li data-target="#carousel-my-homes" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-my-homes" data-slide-to="1"></li>
+			<li data-target="#carousel-my-homes" data-slide-to="2"></li>
+			<li data-target="#carousel-my-homes" data-slide-to="3"></li>
+			<li data-target="#carousel-my-homes" data-slide-to="4"></li>
 		</ol>
 		 
-		<!-- Wrapper for slides -->
 		<div class="carousel-inner" style="overflow:hidden; width:100%; height: 350px !important;">
 			<div class="item active">
 				<img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Sun_Dial_Bridge,_Redding,_CA,_USA.jpg" alt="Sundial Bridge">
@@ -88,7 +91,7 @@
 			</div>
 			
 			<div class="item">
-			  <img src="http://budget.nd.edu/assets/88150/original/budget.jpg" alt="Notre Dame" style="position: absolute; top:-10px; zoom:2">
+			  <img src="http://youthsports.nd.edu/assets/163851/original/8.16.13_campus_skyline_sunsetblog.jpg" alt="Notre Dame" style="position: absolute; top:-50px">
 			  <div class="carousel-caption" style="position: absolute; top:-20px">
 				  <h3>University of Notre Dame, Notre Dame, Indiana</h3>
 			  </div>
@@ -97,16 +100,35 @@
 		  </div>
 		 
 		  <!-- Controls -->
-		  <a class="left carousel-control" href="#carousel-Redding" role="button" data-slide="prev">
+		  <a class="left carousel-control" href="#carousel-my-homes" role="button" data-slide="prev">
 			<span class="glyphicon glyphicon-chevron-left"></span>
 		  </a>
-		  <a class="right carousel-control" href="#carousel-Redding" role="button" data-slide="next">
+		  <a class="right carousel-control" href="#carousel-my-homes" role="button" data-slide="next">
 			<span class="glyphicon glyphicon-chevron-right"></span>
 		  </a>
-		</div> <!-- Carousel -->
+		</div>
 		
 		<hr>	
 	
+		<!-- Section 3, About Me -->
+		<div class="row-fluid">
+            <div class="span12 text-left">
+				<h2><span class="label label-success">About Me</span></h2><br>
+		        <p><h5>
+					I'm from Northern California and I love winter. Just kidding.
+				<br></p></h5>
+				<p style="text-index: 40px">
+					In all seriousness, I do enjoy living in Indiana because that's where I get to explore my passions. I am absolutely in love with computer science. Though, the thing I love most is coding. After graduation, I plan on getting a job where I can do just that, but I also desire to attend graduate school in order to go into research. As a supplement to my degree, I have a concentration in cybersecurity because I am very intrigued by that subfield of computer science. However, I have had a recent obsession in programming language theory and lately it has consumed more of my daydreams than cybersecurity, so I'll just see where that takes me.
+		        <br></p>
+		        <p style="text-index: 40px">
+					Last summer, I lived in Ireland where I interned at IBM Research Dublin.
+		        <br></p>
+			</div>
+		</div>
+
+ 		<hr>
+	
+		<!-- Section 4, Repo -->
  		<div class="row-fluid">
             <div class="span12 text-left">
 			<p class="lead"><h3>
@@ -118,17 +140,19 @@
  		
  		<hr>
  		
+ 		<!-- Section 5, Links page-->
 		<div class="row-fluid">
             <div class="span12 text-left">
 			<p class="lead"></p>
 		        <p>
-					<a class="btn btn-lg btn-info" href="Links" role="button">Click here to view my contact info</a>
+					<a class="btn btn-lg btn-info" href="Links" role="button">View my contact info</a>
 		        </p><br>
 			</div>
 		</div>
  		
+ 		<!-- Footer -->
         <footer class="footer">
-            <p>&copy; Created by Breanna using Python, Flask, and Bootstrap, Jan 2016</p>
+            <p>&copy; Created by Breanna using <a href="https://www.python.org/">Python</a>, <a href="http://flask.pocoo.org/">Flask</a>, and <a href="http://getbootstrap.com/">Bootstrap</a>, Jan 2016</p>
         </footer>
     </div>
 </body>

@@ -4,6 +4,7 @@
 <head>
     <title>Breanna's Homepage</title>
  
+ 	<!-- Templates -->
     <link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
     <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -14,6 +15,7 @@
  
 <body>
     <div class="container">
+    	<!-- Header -->
         <div class="header">
             <nav>
                 <ul class="nav nav-pills pull-right">
@@ -28,20 +30,21 @@
         </div>
  
         <div class="jumbotron">
-            <h1>Random!</h1>
+            <h1>Random</h1>
         </div>
 
 		<hr>
 
+		<!-- Section 1, Obsessions -->
 		<div class="row-fluid">
-            <div class="span12 text-center">
+            <div class="span12 text-left">
 				<p>
 				<h2><span class="label label-danger">Current Obsessions</h2>
 				</p><br>
 	    	</div>
 		</div>
 		
-		<hr class="featurette-divider">
+		<!-- Subsection 1, Haim -->
 		<div class="row featurette">
 			<div class="col-md-5"> 
 				<img class="img-circle" src="http://static.stereogum.com/blogs.dir/2/files/2013/10/haim1.jpg" alt="Haim Photo" width="200" height="200">
@@ -49,28 +52,30 @@
 			<div class="col-md-7"> 
 				<h2 class="featurette-heading">HAIM</h2>
 				<p class="lead"><h4>
-					<a href="https://www.youtube.com/watch?v=Ljg6g7BAdQo">If I Could Change Your Mind</a><br>
 					Live version of <a href="https://www.youtube.com/watch?v=6gObcXsdM6g">Better Off</a><br>
 					<a href="https://www.youtube.com/watch?v=aF4FcTcWcDE">My Song 5</a><br>
+					<a href="https://www.youtube.com/watch?v=Ljg6g7BAdQo">If I Could Change Your Mind</a><br>
 				</h4></p>
 			</div>
 		</div>
 		
+		<!-- Subsection 2, Best Movie Ever -->
 		<hr class="featurette-divider">
 		<div class="row featurette">
 			<div class="col-md-7"> 
-				<h2 class="featurette-heading text-center">Coffee</h2>
+				<h2 class="featurette-heading text-left">Star Wars Conspiracies</h2>
 				<p class="lead"><h4>
-					<a href="http://www.peets.com/subscriptions.html?gclid=CPyrnbXflMoCFQanaQodnH8DNA">Peet's Coffee</a><br>
-					<a href="http://www.fixxcoffeehouse.ie/">Fixx Coffee House</a> (currently closed)<br>
-					<a href="https://www.kaleidoscopecoffeecompany.com/">Kaleidoscope Coffee Company</a><br>
+					The <a href="http://www.iflscience.com/space/death-star-iis-destruction-may-have-doomed-ewoks-say-scientists">fate of the Ewoks</a><br>
+					<a href="http://www.buzzfeed.com/ryanhatesthis/seriously-dont-click-this-if-you-havent-seen-tfa-yet#.hbKJ6y95j">This one</a> about Kylo Ren<br>
+					Is <a href="http://www.huffingtonpost.com/ben-ostrower/rey-is-obi-wan-kenobis-granddaughter_b_8911656.html">Rey a Kenobi?!</a><br>
 				</h4></p>
 			</div>
 			<div class="col-md-5"> 
-				<img class="img-circle" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Coffee_Beans_(2732722806).jpg" alt="Coffee Photo" width="200" height="200">
+				<img class="img-circle" src="https://i.ytimg.com/vi/cT2jfbLvtgs/maxresdefault.jpg" alt="Star Wars Photo" width="200" height="200">
 			</div>
 		</div>
 		
+		<!-- Subsection 3, Programming Languages -->
 		<hr class="featurette-divider">
 		<div class="row featurette">
 			<div class="col-md-5"> 
@@ -85,27 +90,44 @@
 			</div>
 		</div>
 		
+		<!-- Subsection 4, COFFEE -->
 		<hr class="featurette-divider">
 		<div class="row featurette">
 			<div class="col-md-7"> 
-				<h2 class="featurette-heading text-center">Star Wars Conspiracies</h2>
+				<h2 class="featurette-heading text-left">Coffee</h2>
 				<p class="lead"><h4>
-					The <a href="http://www.iflscience.com/space/death-star-iis-destruction-may-have-doomed-ewoks-say-scientists">fate of the Ewoks</a><br>
-					<a href="http://www.buzzfeed.com/ryanhatesthis/seriously-dont-click-this-if-you-havent-seen-tfa-yet#.hbKJ6y95j">This one</a> about Kylo Ren<br>
-					Is <a href="http://www.huffingtonpost.com/ben-ostrower/rey-is-obi-wan-kenobis-granddaughter_b_8911656.html">Rey a Kenobi?!</a><br>
+					<a href="http://www.peets.com/subscriptions.html?gclid=CPyrnbXflMoCFQanaQodnH8DNA">Peet's Coffee</a><br>
+					<a href="http://www.fixxcoffeehouse.ie/">Fixx Coffee House</a> (currently closed)<br>
+					<a href="https://www.kaleidoscopecoffeecompany.com/">Kaleidoscope Coffee Company</a><br>
 				</h4></p>
 			</div>
 			<div class="col-md-5"> 
-				<img class="img-circle" src="https://i.ytimg.com/vi/cT2jfbLvtgs/maxresdefault.jpg" alt="Star Wars Photo" width="200" height="200">
+				<img class="img-circle" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Coffee_Beans_(2732722806).jpg" alt="Coffee Photo" width="200" height="200">
 			</div>
 		</div>
 		
-		
-		
-		
- 
+		<!-- Subsection 5, 90s -->
+		<hr class="featurette-divider">
+		<div class="row featurette">
+			<div class="col-md-5"> 
+				<img class="img-circle" src="https://s-media-cache-ak0.pinimg.com/236x/03/d5/9f/03d59f68a0fc74b9ed1e21a8cbd0aea4.jpg" alt="90s Print" width="200" height="200">
+			</div>
+			<div class="col-md-7"> 
+				<h2 class="featurette-heading text-left">90s Covers</h2>
+				<p class="lead"><h4>
+					Bastille's<a href="https://www.youtube.com/watch?v=e2EHe2rmNF0"> No Angels</a> (No Scrubs)<br>
+					Passion Pit's cover of<a href="https://www.youtube.com/watch?v=e56JIp2hXcY"> Dreams</a><br>
+					<a href="https://soundcloud.com/basecampmusique/basecamp-atsw-1">All That She Wants</a> cover by Basecamp<br>
+					Tame Impala's cover of<a href="https://www.youtube.com/watch?v=-FkwfHJlOaU"> Stranger in Moscow</a><br>
+					Can't forget a Backstreet Boys<a href="https://soundcloud.com/ty-miller-10/charli-xcx-i-want-it-that-way"> cover</a>, Charlie XCX<br>
+				</h4></p>
+			</div>
+		</div>
+ 		<br>
+ 		
+ 		<!-- Footer -->
         <footer class="footer">
-            <p>&copy; Created by Breanna using Python, Flask, and Bootstrap, Jan 2016</p>
+            <p>&copy; Created by Breanna using <a href="https://www.python.org/">Python</a>, <a href="http://flask.pocoo.org/">Flask</a>, and <a href="http://getbootstrap.com/">Bootstrap</a>, Jan 2016</p>
         </footer>
     </div>
 </body>

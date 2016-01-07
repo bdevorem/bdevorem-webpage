@@ -35,12 +35,12 @@
 
     	<div class="row-fluid">
 			<div class="span12 text-center">
-            	<iframe src="https://drive.google.com/file/d/0B_xbx4X9eBRfd2gwdVhIdlc1ZzA/preview" width="100%" height="750"></iframe>
+            	<iframe src="https://drive.google.com/file/d/0B_xbx4X9eBRfcjQweHdSWnBwbzA/preview" width="100%" height="750"></iframe>
         	</div>
 		</div>
  
         <footer class="footer">
-            <p>&copy; Created by Breanna using Python, Flask, and Bootstrap, Jan 2016</p>
+            <p>&copy; Created by Breanna using <a href="https://www.python.org/">Python</a>, <a href="http://flask.pocoo.org/">Flask</a>, and <a href="http://getbootstrap.com/">Bootstrap</a>, Jan 2016</p>
         </footer>
     </div>
 </body>
