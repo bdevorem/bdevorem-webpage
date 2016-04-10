@@ -5,9 +5,9 @@
     <title>Breanna's Homepage</title>
  
  	<!-- Templates -->
-    <link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/bootstrap.css">
     <link href="https://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
-    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,7 @@
             <nav>
                 <ul class="nav nav-pills pull-right">
                     <li role="presentation" ><a href="Home">Home</a></li>
-		    		<li role="presentation" class="active" ><a href="Resume">R&eacute;sum&eacute;</a></li>
+		    		<li role="presentation" class="active" ><a href="Resume">CV</a></li>
                     <li role="presentation" ><a href="Random">Random</a></li>
                     <li role="presentation"><a href="Links">Links</a></li>
                 </ul>
@@ -30,7 +30,7 @@
         </div>
 
 		<div class="jumbotron">
-            <h1>R&eacute;sum&eacute;</h1>
+            <h1>Curriculum Vitae</h1>
         </div>
  
 		<hr>
@@ -51,7 +51,148 @@
             </div>
         </div>
 
+         <!-- Section 1, 3xpl!c&t!v3 -->
+            <div class="row featurette">
+            <div class="col-md-6">
+                <img class="img-circle" src="static/esoteric.png" alt="" width="300" height="300">
+            </div>
+            <div class="col-md-6">
+                <h2 class="featurette-heading"><a href="https://github.com/bdevorem/explicative">3xpl!c&tiv3</a></h2>
+                    <p class="lead"><h5>
+                        3xpl!c&tiv3 (read: explicative) is an 
+                        esoteric programming language that will 
+                        be created in the next few weeks by my 
+                        friend 
+                        <a href="http://nicholascjones.com/">Nick</a>
+                        and I.
+                        <br>
+                        Keep track of the project 
+                        <a href="http://www.github.com/bdevorem/explicative">here</a>,
+                        and enjoy the following whitespace...
+                    </h5></p>
+                </div>
+            </div>
 
+        <!-- Section 2, Sentiment-Wars -->
+        <hr class="featurette-divider">
+        <div class="row featurette"> 
+                <div class="col-md-7">
+                    <h2 class="featurette-heading text-left"><a href="http://sentiment-wars.herokuapp.com/">Sentiment Wars</a></h2>
+                    <p class="lead"><h5>
+                        Sentiment Wars is a sentiment analyzer of 
+                        tweets regarding 'Star Wars: The Force 
+                        Awakens', with both command-line and web
+                        interfaces. In the web app, you can see a 
+                        series of tweets queried using the Twitter 
+                        Search API and the Tweepy wrapper, along 
+                        with their sentiment analysis using a 
+                        4-state deterministic finite automaton. 
+                        The actual automaton is generalized, i.e. 
+                        it can accept any input in the form of 
+                        multiple English words delimited by 
+                        whitespace. The Sentiment Wars automaton 
+                        can be downloaded from the app's Github, 
+                        along with the README containing directions 
+                        on how to run the automaton from the 
+                        command line with user-inputted tweets, 
+                        or with specific Twitter Search queries.
+                    </h5></p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-circle" src="static/theforceawakens.jpg" alt="The Force Awakens" width="300" height="300">
+                </div>
+            </div>
+
+            <!-- Section 3, Lamby -->
+           <hr class="featurette-divider">
+            <div class="row featurette">
+            <div class="col-md-6">
+                <img class="img-circle" src="static/lambda.jpg" alt="" width="300" height="300">
+            </div>
+            <div class="col-md-6">
+                <h2 class="featurette-heading"><a href="https://github.com/bdevorem/lamby">Lamby</a></h2>
+                    <p class="lead"><h5>
+                        Lamby is a simple Lambda Calculus Reducer, 
+                        written in Python. I have developed a 
+                        recent interest in Programming Language 
+                        Theory (and theory of computation, just 
+                        in general)(as noted in multiple places on
+                        this webpage), so this project has served 
+                        as an interest-gauge for possible research 
+                        areas of my future. Currently, Lamby does 
+                        not support arithmetic, but the goal is 
+                        to turn Lamby from a reducer to a 
+                        complete interpreter. Lamby has been one
+                        of my favorite projects thus far in my 
+                        education. It really gave me a sense of 
+                        what sort of things I could do in graduate 
+                        school, which was so.exciting.
+                    </h5></p>
+                </div>
+            </div>
+
+        <!-- Section 4, NDLUG Webpage -->
+        <hr class="featurette-divider">
+        <div class="row featurette"> 
+                <div class="col-md-7">
+                    <h2 class="featurette-heading text-left"><a href="http://ndlug.herokuapp.com/">NDLUG Webpage</a></h2>
+                    <p class="lead"><h5>
+                        A second attempt at creating a webpage... 
+                        second to the one you are currently at. 
+                        This time, instead of using the Flask 
+                        microframework, we used Django (a huge 
+                        step up in the world of webdev). The 
+                        NDLUG webpage is just that, a webpage for
+                        the Notre Dame Linux User Group, a club 
+                        that I have 
+                        co-founded/co-benevolently-dictated. In 
+                        order to lay a solid foundation for the 
+                        club, we are trying to maintain as much 
+                        in-house technology as possible, such as 
+                        user accounts, polling and announcements 
+                        apps, and archives of past meetings. 
+                        Additionally, the site also acts as a 
+                        stepping stone for LUG members in terms 
+                        of open-source development and 
+                        contribution, by being a safe project to 
+                        learn about version control, documentation, 
+                        markdown, maintenance, bugs/issues, pull 
+                        requests, etc. Much fun.
+                    </h5></p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-circle" src="static/tux-nd-big.png" alt="ND Tux" width="300" height="300">
+                </div>
+            </div>
+
+            <!-- Section 5, Super-ish Mario Bros -->
+           <hr class="featurette-divider">
+            <div class="row featurette">
+            <div class="col-md-6">
+                <img class="img-circle" src="static/mario.png" alt="" width="300" height="300">
+            </div>
+            <div class="col-md-6">
+                <h2 class="featurette-heading"><a href="https://github.com/bdevorem/FinalProject">Super-ish Mario Bros</a></h2>
+                    <p class="lead"><h5>
+                        The token C++ game! Super-ish Mario Bros 
+                        is a remake of the classic 
+                        Super Mario Bros game, programmed 
+                        completely in C++ with the SDL library 
+                        for graphics. We utilized the traditional 
+                        ideas of mushrooms, goombas, and koopas, 
+                        but we took a different perspective on 
+                        other ideas in order to maintain 
+                        uniqueness. This project was one of the 
+                        more challenging, simply because I am 
+                        not very passionate about graphics and 
+                        the majority of time spent on this 
+                        project went towards the graphical 
+                        interface.
+                    </h5></p>
+                </div>
+            </div>
+
+        <br>
  		<!-- Footer -->
         <footer class="footer">
             <p>&copy; Created by Breanna using <a href="https://www.python.org/">Python</a>, <a href="http://flask.pocoo.org/">Flask</a>, and <a href="http://getbootstrap.com/">Bootstrap</a>, Jan 2016</p>
