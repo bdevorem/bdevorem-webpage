@@ -1,6 +1,6 @@
 # bdevorem-webpage
 Personal webpage of Breanna Devore-McDonald, at 
-[bdevorem.herokuapp.com](bdevorem.herokuapp.com)  
+[bdevorem.herokuapp.com](http://bdevorem.herokuapp.com)  
 Note: previously hosted at breanna-devore-mcdonald.herokuapp.com  
 
 # Details
