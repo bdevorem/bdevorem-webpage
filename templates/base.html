@@ -15,8 +15,9 @@
 
   <body>
 	<div class="container">
-		<div id="header">{% block header %}{% endblock %}</div>
-    	<div id="content">{% block content %}{% endblock %}</div>
+		{% block header %}{% endblock %}
+		<hr>
+    	{% block content %}{% endblock %}
     	<footer class="footer">
       		{% block footer %}
       			&copy; Built with <a href="https://www.python.org/">Python</a>, <a href="http://flask.pocoo.org/">Flask</a>, and <a href="http://getbootstrap.com/">Bootstrap</a>, May 2016</p>
