@@ -1,7 +1,10 @@
 # bdevorem-webpage
+Personal webpage of Breanna Devore-McDonald, at 
+[bdevorem.herokuapp.com](bdevorem.herokuapp.com)  
+Note: previously hosted at breanna-devore-mcdonald.herokuapp.com  
 
-Created on Jan 5, 2016.
-Coded in Python and HTML/CSS, using the Flask Python microframework and Bootstrap HTML/CSS/JS framework.
-Built on Ubuntu.
-Last website update: Jan 6, 2016.
-Last resume update: Dec 18, 2015.
+# Details
+Created on Jan 5, 2016  
+Built with Python, Flask, and HTML/CSS/JS, on Arch Linux  
+Last website update: May 20, 2016
+Last resume update: Dec 18, 2015  
