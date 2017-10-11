@@ -4,7 +4,7 @@ Personal webpage circa 2015. Used tobe located at
 [bdevorem.herokuapp.com](http://bdevorem.herokuapp.com) and 
 [breanna-devore-mcdonald.herokuapp.com](http://breanna-devore-mcdonald.herokuapp.com),
 but I no longer have apps at those domains.  
-Check out [bashfulbytes](bashfulbytes.com) for my information and blog.  
+Check out [bashfulbytes](https://bashfulbytes.com) for my information and blog.  
 
 # Details
 Created on Jan 5, 2016  
